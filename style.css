@@ -1,0 +1,30 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+    line-height: 1.6;             /* Improve readability */
+    margin: 0;                    /* Remove default browser margin */
+    padding: 20px;                /* Add some space around the content */
+    background-color: #f4f4f4;    /* Light grey background */
+    color: #333;                  /* Dark grey text color */
+}
+
+/* Style the main heading */
+h1 {
+    color: #0366d6;               /* A blue color, similar to GitHub's link color */
+    text-align: center;           /* Center the heading */
+}
+
+/* Center the paragraphs in the main section */
+main p {
+    text-align: center;
+    max-width: 600px;             /* Limit width for better readability on wide screens */
+    margin: 10px auto;            /* Center the block and add space */
+}
+
+/* Style the footer */
+footer {
+    margin-top: 40px;             /* Add space above the footer */
+    text-align: center;           /* Center the footer text */
+    font-size: 0.9em;             /* Make footer text slightly smaller */
+    color: #555;                  /* Slightly lighter text color for the footer */
+}
